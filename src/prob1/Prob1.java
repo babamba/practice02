@@ -15,10 +15,7 @@ public class Prob1 {
 			if(data[i]%3 == 0){ //3의 배수
 				count++;
 				sum += data[i];  
-//				sum = sum + data[i];
 			}
-//			System.out.println(" + count );								
-//			System.out.println(data[i]);
 		}		
 		System.out.println( "주어진 배열에서 3의 배수의 개수=> " + count);				
 		System.out.println( "주어진 배열에서 3의 배수의 합=>" + sum );
