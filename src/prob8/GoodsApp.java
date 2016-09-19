@@ -18,7 +18,7 @@ public class GoodsApp {
  			goods[i].setCountStock(Integer.parseInt(infos[2])); 
  		} 
  		 
- 		System.out.println("끝"); 
+ 		System.out.println("========="); 
  		 
  		scanner.close(); 
  	} 		 
